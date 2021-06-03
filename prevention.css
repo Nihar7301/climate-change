@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+    font-size:20px;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/68704982-1681-4007-96a8-e86b9ddbfe82/dbev15j-249c2f7c-9005-49d1-8cb6-6fef171a15fe.png/v1/fill/w_1024,h_576,q_80,strp/minimalistic_landscape_wallpaper_by_zactheacorn_dbev15j-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNjg3MDQ5ODItMTY4MS00MDA3LTk2YTgtZTg2YjlkZGJmZTgyXC9kYmV2MTVqLTI0OWMyZjdjLTkwMDUtNDlkMS04Y2I2LTZmZWYxNzFhMTVmZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vxXTMk9EGX9aVbeLzY9CgIx2NzEEXgfgBsqQMQ0WKcY);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #00001a;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ebebeb;
+	height: 1500px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+::-webkit-scrollbar{
+    width:15px;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:#efefef;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image:linear-gradient(#04e69b,#16ead0);
+    border-radius:20px;
+}
